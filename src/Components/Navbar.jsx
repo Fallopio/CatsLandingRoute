@@ -19,7 +19,7 @@ function Navbar(props) {
             </div>
             <ul className='navUl' id='navUl'>
                 <li>
-                    <Link className='navLink' to='/' onClick={handleNav}>Home</Link>
+                    <Link className='navLink' to='/CatsLandingRoute' onClick={handleNav}>Home</Link>
                 </li>
                 <li>
                     <Link className='navLink' to='/about' onClick={handleNav}>About</Link>
