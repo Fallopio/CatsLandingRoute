@@ -1,0 +1,16 @@
+.AboutSection {
+    background-image: url(https://i.imgur.com/j7iBUaL.jpg);
+    background-color: dimgray;
+}
+
+.aboutArticle {
+    color: white;
+    text-align: left;
+    max-width: 600px;
+}
+
+.AboutSection header {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(28, 73, 69, 1) 55%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
