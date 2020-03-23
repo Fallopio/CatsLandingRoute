@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CatsLandingRoute/static/css/main.b42a4618.chunk.css",
-    "main.js": "/CatsLandingRoute/static/js/main.0b757bdd.chunk.js",
-    "main.js.map": "/CatsLandingRoute/static/js/main.0b757bdd.chunk.js.map",
+    "main.css": "/CatsLandingRoute/static/css/main.9c9eeed5.chunk.css",
+    "main.js": "/CatsLandingRoute/static/js/main.a3cdd8bc.chunk.js",
+    "main.js.map": "/CatsLandingRoute/static/js/main.a3cdd8bc.chunk.js.map",
     "runtime-main.js": "/CatsLandingRoute/static/js/runtime-main.322a03aa.js",
     "runtime-main.js.map": "/CatsLandingRoute/static/js/runtime-main.322a03aa.js.map",
     "static/js/2.c4670215.chunk.js": "/CatsLandingRoute/static/js/2.c4670215.chunk.js",
     "static/js/2.c4670215.chunk.js.map": "/CatsLandingRoute/static/js/2.c4670215.chunk.js.map",
     "index.html": "/CatsLandingRoute/index.html",
-    "precache-manifest.10808b2393b060fbeb608d109e9be41f.js": "/CatsLandingRoute/precache-manifest.10808b2393b060fbeb608d109e9be41f.js",
+    "precache-manifest.a0e8548106e8f77521d2e618f7353bbc.js": "/CatsLandingRoute/precache-manifest.a0e8548106e8f77521d2e618f7353bbc.js",
     "service-worker.js": "/CatsLandingRoute/service-worker.js",
-    "static/css/main.b42a4618.chunk.css.map": "/CatsLandingRoute/static/css/main.b42a4618.chunk.css.map",
+    "static/css/main.9c9eeed5.chunk.css.map": "/CatsLandingRoute/static/css/main.9c9eeed5.chunk.css.map",
     "static/js/2.c4670215.chunk.js.LICENSE.txt": "/CatsLandingRoute/static/js/2.c4670215.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.322a03aa.js",
     "static/js/2.c4670215.chunk.js",
-    "static/css/main.b42a4618.chunk.css",
-    "static/js/main.0b757bdd.chunk.js"
+    "static/css/main.9c9eeed5.chunk.css",
+    "static/js/main.a3cdd8bc.chunk.js"
   ]
 }
