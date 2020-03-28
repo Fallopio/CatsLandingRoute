@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CatsLandingRoute/static/css/main.9c9eeed5.chunk.css",
+    "main.css": "/CatsLandingRoute/static/css/main.6619b56f.chunk.css",
     "main.js": "/CatsLandingRoute/static/js/main.a3cdd8bc.chunk.js",
     "main.js.map": "/CatsLandingRoute/static/js/main.a3cdd8bc.chunk.js.map",
     "runtime-main.js": "/CatsLandingRoute/static/js/runtime-main.322a03aa.js",
@@ -8,15 +8,15 @@
     "static/js/2.c4670215.chunk.js": "/CatsLandingRoute/static/js/2.c4670215.chunk.js",
     "static/js/2.c4670215.chunk.js.map": "/CatsLandingRoute/static/js/2.c4670215.chunk.js.map",
     "index.html": "/CatsLandingRoute/index.html",
-    "precache-manifest.a0e8548106e8f77521d2e618f7353bbc.js": "/CatsLandingRoute/precache-manifest.a0e8548106e8f77521d2e618f7353bbc.js",
+    "precache-manifest.c9d74f7e6ea840d508626560d3b21c3b.js": "/CatsLandingRoute/precache-manifest.c9d74f7e6ea840d508626560d3b21c3b.js",
     "service-worker.js": "/CatsLandingRoute/service-worker.js",
-    "static/css/main.9c9eeed5.chunk.css.map": "/CatsLandingRoute/static/css/main.9c9eeed5.chunk.css.map",
+    "static/css/main.6619b56f.chunk.css.map": "/CatsLandingRoute/static/css/main.6619b56f.chunk.css.map",
     "static/js/2.c4670215.chunk.js.LICENSE.txt": "/CatsLandingRoute/static/js/2.c4670215.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.322a03aa.js",
     "static/js/2.c4670215.chunk.js",
-    "static/css/main.9c9eeed5.chunk.css",
+    "static/css/main.6619b56f.chunk.css",
     "static/js/main.a3cdd8bc.chunk.js"
   ]
 }
