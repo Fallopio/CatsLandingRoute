@@ -1,10 +1,11 @@
 footer {
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(1, 5, 17);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 0px;
+    color: white;
 
 }
 
@@ -12,4 +13,10 @@ footer div {
     max-width: 50px;
     margin: 20px;
     font-size: small;
+}
+
+.footerhead {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(28, 73, 69, 1) 55%, rgba(0, 212, 255, 1) 100%);
+    color: white;
 }
