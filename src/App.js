@@ -10,6 +10,7 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Contacts from './Components/Contacts'
 import Footer from './Components/Footer'
+import CarouselSec from './Components/Carousel';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route exact path='/CatsLandingRoute'>
             <Home />
+            <CarouselSec />
           </Route>
           <Route path='/about'>
             <About />
