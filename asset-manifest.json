@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/CatsLandingRoute/static/css/main.6619b56f.chunk.css",
-    "main.js": "/CatsLandingRoute/static/js/main.a3cdd8bc.chunk.js",
-    "main.js.map": "/CatsLandingRoute/static/js/main.a3cdd8bc.chunk.js.map",
+    "main.css": "/CatsLandingRoute/static/css/main.98b3049e.chunk.css",
+    "main.js": "/CatsLandingRoute/static/js/main.79821682.chunk.js",
+    "main.js.map": "/CatsLandingRoute/static/js/main.79821682.chunk.js.map",
     "runtime-main.js": "/CatsLandingRoute/static/js/runtime-main.322a03aa.js",
     "runtime-main.js.map": "/CatsLandingRoute/static/js/runtime-main.322a03aa.js.map",
-    "static/js/2.c4670215.chunk.js": "/CatsLandingRoute/static/js/2.c4670215.chunk.js",
-    "static/js/2.c4670215.chunk.js.map": "/CatsLandingRoute/static/js/2.c4670215.chunk.js.map",
+    "static/css/2.afd40c00.chunk.css": "/CatsLandingRoute/static/css/2.afd40c00.chunk.css",
+    "static/js/2.c127c1b6.chunk.js": "/CatsLandingRoute/static/js/2.c127c1b6.chunk.js",
+    "static/js/2.c127c1b6.chunk.js.map": "/CatsLandingRoute/static/js/2.c127c1b6.chunk.js.map",
     "index.html": "/CatsLandingRoute/index.html",
-    "precache-manifest.c9d74f7e6ea840d508626560d3b21c3b.js": "/CatsLandingRoute/precache-manifest.c9d74f7e6ea840d508626560d3b21c3b.js",
+    "precache-manifest.29c7d213d400bf1322dc65e1b2d35789.js": "/CatsLandingRoute/precache-manifest.29c7d213d400bf1322dc65e1b2d35789.js",
     "service-worker.js": "/CatsLandingRoute/service-worker.js",
-    "static/css/main.6619b56f.chunk.css.map": "/CatsLandingRoute/static/css/main.6619b56f.chunk.css.map",
-    "static/js/2.c4670215.chunk.js.LICENSE.txt": "/CatsLandingRoute/static/js/2.c4670215.chunk.js.LICENSE.txt"
+    "static/css/2.afd40c00.chunk.css.map": "/CatsLandingRoute/static/css/2.afd40c00.chunk.css.map",
+    "static/css/main.98b3049e.chunk.css.map": "/CatsLandingRoute/static/css/main.98b3049e.chunk.css.map",
+    "static/js/2.c127c1b6.chunk.js.LICENSE.txt": "/CatsLandingRoute/static/js/2.c127c1b6.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/CatsLandingRoute/static/media/1.96b78b28.png",
+    "static/media/2.png": "/CatsLandingRoute/static/media/2.8642e938.png",
+    "static/media/3.png": "/CatsLandingRoute/static/media/3.5d282712.png",
+    "static/media/4.png": "/CatsLandingRoute/static/media/4.7698f04b.png",
+    "static/media/5.png": "/CatsLandingRoute/static/media/5.1ed418d1.png",
+    "static/media/6.png": "/CatsLandingRoute/static/media/6.2ca4dc02.png",
+    "static/media/7.png": "/CatsLandingRoute/static/media/7.20b1121e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.322a03aa.js",
-    "static/js/2.c4670215.chunk.js",
-    "static/css/main.6619b56f.chunk.css",
-    "static/js/main.a3cdd8bc.chunk.js"
+    "static/css/2.afd40c00.chunk.css",
+    "static/js/2.c127c1b6.chunk.js",
+    "static/css/main.98b3049e.chunk.css",
+    "static/js/main.79821682.chunk.js"
   ]
 }
