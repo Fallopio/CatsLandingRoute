@@ -15,7 +15,7 @@ function CarouselSec() {
             <h2 className='carouselHeader'>Awesome pictures of cats</h2>
             <Carousel className='car' showArrows={true} showThumbs={false} showStatus={false}>
                 <div>
-                    <img src={firstPic} alt="" />
+                    <img src={seventhPic} alt="" />
                 </div>
                 <div>
                     <img src={secondPic} alt="" />
@@ -33,7 +33,7 @@ function CarouselSec() {
                     <img src={sixthPic} alt="" />
                 </div>
                 <div>
-                    <img src={seventhPic} alt="" />
+                    <img src={firstPic} alt="" />
                 </div>
             </Carousel>
         </div>

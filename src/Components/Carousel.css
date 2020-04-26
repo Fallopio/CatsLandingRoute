@@ -5,7 +5,7 @@
 
 .car div img {
     max-width: 1920px;
-    max-height: 700px;
+    height: 700px;
     object-fit: contain;
 }
 
