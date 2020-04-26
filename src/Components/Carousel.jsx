@@ -12,7 +12,7 @@ import './Carousel.css'
 function CarouselSec() {
     return (
         <div>
-            <h1 className='carouselHeader'>Awesome pictures of cats</h1>
+            <h2 className='carouselHeader'>Awesome pictures of cats</h2>
             <Carousel className='car' showArrows={true} showThumbs={false} showStatus={false}>
                 <div>
                     <img src={firstPic} alt="" />
