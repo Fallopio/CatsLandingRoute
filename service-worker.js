@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CatsLandingRoute/precache-manifest.a0907759ef32072e8472630be1a40dc7.js"
+  "/CatsLandingRoute/precache-manifest.f7a74b1636237c5d0bc7c9211aafe289.js"
 );
 
 self.addEventListener('message', (event) => {
