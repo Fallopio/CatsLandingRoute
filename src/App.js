@@ -21,6 +21,7 @@ function App() {
   }, [])
 
   const animateText = debounce(() => {
+    if(document.getElementById('homeOl')) {
     const section = document.getElementById('homeOl');
     const coords = section.getBoundingClientRect();
     const visible = window.innerHeight;
@@ -43,7 +44,7 @@ function App() {
       section.className = 'homeOl'
     }
 
-  }, 200)
+  }}, 200)
 
   return (
     <Router>
