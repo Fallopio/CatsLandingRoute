@@ -29,8 +29,7 @@ function App() {
     const coordsTwo = sectionTwo.getBoundingClientRect()
 
     if (coordsTwo.y < visible || coordsTwo.bottom < visible) {
-      sectionTwo.className = 'secHomeOlAnim'
-      console.log(coordsTwo, visible)
+      sectionTwo.className = 'secHomeOlAnim'      
     }
 
     else {
