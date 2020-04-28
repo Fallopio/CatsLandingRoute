@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55330b4559e2c59e375bfc019c4466e4",
+    "revision": "bfd330005e005fccd510b03dd9d26212",
     "url": "/CatsLandingRoute/index.html"
   },
   {
-    "revision": "37de8ba4a64b33904d6b",
+    "revision": "d36c78e74a4b47b23804",
     "url": "/CatsLandingRoute/static/css/2.afd40c00.chunk.css"
   },
   {
-    "revision": "fb94e9bf54bed0b32d0e",
-    "url": "/CatsLandingRoute/static/css/main.58d8876d.chunk.css"
+    "revision": "8a9a1b89848979852b0e",
+    "url": "/CatsLandingRoute/static/css/main.6b46a908.chunk.css"
   },
   {
-    "revision": "37de8ba4a64b33904d6b",
-    "url": "/CatsLandingRoute/static/js/2.c127c1b6.chunk.js"
+    "revision": "d36c78e74a4b47b23804",
+    "url": "/CatsLandingRoute/static/js/2.31fe5014.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/CatsLandingRoute/static/js/2.c127c1b6.chunk.js.LICENSE.txt"
+    "url": "/CatsLandingRoute/static/js/2.31fe5014.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb94e9bf54bed0b32d0e",
-    "url": "/CatsLandingRoute/static/js/main.e77fb664.chunk.js"
+    "revision": "8a9a1b89848979852b0e",
+    "url": "/CatsLandingRoute/static/js/main.536a7dc3.chunk.js"
   },
   {
     "revision": "faa8cca374c43bab64fc",
@@ -54,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20b1121e1cccc90deb5579b4b5d06d75",
     "url": "/CatsLandingRoute/static/media/7.20b1121e.png"
+  },
+  {
+    "revision": "03dfca12cbe71a66cb12b904bed3bb3a",
+    "url": "/CatsLandingRoute/static/media/cat.03dfca12.jpg"
   }
 ]);
