@@ -50,14 +50,14 @@
 
 @keyframes revSlide {
     0% {
-        transform: translateX(900px);
+        transform: translateX(2000px);
     }
     100% {
         transform: translateX(0);
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .secArt {     
         background-image: none;  
         background-color: black;

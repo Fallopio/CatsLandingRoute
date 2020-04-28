@@ -49,6 +49,7 @@
         flex-grow: 1;
         list-style-type: none;
         margin-right: 0px;
+        transition: 0.3s all;
     }
     .navUl li {
         width: 100%;
@@ -80,6 +81,7 @@
         flex-grow: 1;
         margin: auto;
         list-style-type: none;
+        transition: 0.3s all;
     }
     .navUlresponsive li {
         padding-top: 10px;

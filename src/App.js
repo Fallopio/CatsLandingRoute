@@ -27,7 +27,7 @@ function App() {
     const sectionTwo = document.getElementById('secHomeOl');
     const coordsTwo = sectionTwo.getBoundingClientRect()
 
-    if(coordsTwo.y < visible || coordsTwo.bottom < visible) {
+    if (coordsTwo.y < visible || coordsTwo.bottom < visible) {
       sectionTwo.className = 'secHomeOlAnim'
       console.log(coordsTwo, visible)
     }
@@ -35,20 +35,20 @@ function App() {
     else {
       sectionTwo.className = 'secHomeOl'
     }
-    
-    if(coords.bottom > 0) {
-      section.className = 'homeOlAnim'      
+
+    if (coords.bottom > 0) {
+      section.className = 'homeOlAnim'
     }
     else {
       section.className = 'homeOl'
     }
-    
+
   }, 200)
 
   return (
     <Router>
       <div className="App">
-        <Navbar />        
+        <Navbar />
         <Switch>
           <Route exact path='/CatsLandingRoute'>
             <Home />
