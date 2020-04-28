@@ -1,18 +1,14 @@
 import React from 'react'
-import './Home.css'
+import './secondList.css';
 
-function Home() { 
-
+function SecondList() {
     return (
-        <section className='homeSection' id='home'>
-            <header className='homeHeader'>
-                <h1>Awesome page about how awesome cats are</h1>
+        <section className='secondList' id='2list'>
+            <header className='secHead'>
+                <h1>10 fun facts about cats</h1>
             </header>
-            <article className='reasonArt' id='article'>
-                <header>
-                    <h2>10 Reasons Why Cats Are Awesome</h2>
-                </header>
-                <ol className='homeOlAnim' id='homeOl'>
+            <article className='secArt' id='secArticle'>               
+                <ol className='secHomeOl' id='secHomeOl'>
                     <li>
                         Cats can be left by themselves for a while. You can take a short vacation and leave them at home. All they need is enough food and water to make it through. They don’t get separation anxiety and tear up your entire house like dogs do.
                     </li>
@@ -49,4 +45,4 @@ function Home() {
     )
 }
 
-export default Home
+export default SecondList

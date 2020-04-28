@@ -1,63 +1,58 @@
-.homeSection {
+.secondList {
     margin: auto;
     color: rgb(255, 255, 255);    
     
 }
 
-h1, h2 {
-    margin: 0px;
-}
-
-.homeHeader {
+.secHead {
     background: rgb(0, 0, 0);
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(28, 73, 69, 1) 55%, rgba(0, 212, 255, 1) 100%);
     color: white;
 }
 
-.reasonArt {
-    background-image: url(https://i.imgur.com/j7iBUaL.jpg);
+.secArt {
+    background-image: url(../assets/cat.jpg);
     background-color: dimgray;
     background-size: cover;
 }
 
-.homeOl {
+.secHomeOlAnim {
     text-align: left;
-    max-width: 600px;
-    font-size: large;
-    margin-bottom: 0px;
-    padding-bottom: 20px; 
-    color: rgba(0, 0, 0, 0);
-}
-
-.homeOlAnim {
-    text-align: left;
+    margin: auto;
+    margin-right: 0px;
     max-width: 600px;
     font-size: large;
     margin-bottom: 0px;
     padding-bottom: 20px;
     animation-duration: 1s;
-    animation-name: slide;
+    animation-name: revSlide;
 }
 
-.homeOl li {
+.secHomeOl {
+    text-align: left;
+    margin: auto;
+    margin-right: 0px;
+    max-width: 600px;
+    font-size: large;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.secHomeOl li {
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
-.homeOlAnim li {
+.secHomeOlAnim li {
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
-.anim {
-    animation-duration: 1s;
-    animation-name: slide;
-}
 
-
-@keyframes slide {
+@keyframes revSlide {
     0% {
-        transform: translateX(-900px);
+        transform: translateX(900px);
       }
       100% {
         transform: translateX(0);
