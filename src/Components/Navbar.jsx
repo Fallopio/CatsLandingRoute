@@ -1,23 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import { useRef } from 'react'
 
 function Navbar(props) {
+    const navRef = useRef(undefined)
+
     const responsiveHandler = () => {
-        if (document.getElementById('navUl').className === 'navUl') {
-            document.getElementById('navUl').className += 'responsive'
+        if (navRef.current.className === 'navUl') {
+            navRef.current.className += 'responsive'
         }
-        else { document.getElementById('navUl').className = 'navUl' }
+        else { navRef.current.className = 'navUl' }
     }
     const handleNav = () => {
-        document.getElementById('navUl').className = 'navUl'
+        navRef.current.className = 'navUl'
     }
     return (
         <nav className='nav'>
             <div className='icon' onClick={responsiveHandler}>
                 <i className='fa fa-bars'></i>
             </div>
-            <ul className='navUl' id='navUl'>
+            <ul className='navUl' ref={navRef} id='navUl'>
                 <li>
                     <Link className='navLink' to='/CatsLandingRoute' onClick={handleNav}>Home</Link>
                 </li>
@@ -26,7 +29,7 @@ function Navbar(props) {
                 </li>
                 <li>
                     <Link className='navLink' to='/contacts' onClick={handleNav}>Contacts</Link>
-                </li>                
+                </li>
             </ul>
         </nav>
     )

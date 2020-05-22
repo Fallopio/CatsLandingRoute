@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-function Home() { 
+function Home(props) { 
 
     return (
         <section className='homeSection' id='home'>
@@ -12,7 +12,7 @@ function Home() {
                 <header>
                     <h2>10 Reasons Why Cats Are Awesome</h2>
                 </header>
-                <ol className='homeOlAnim' id='homeOl'>
+                <ol className='homeOlAnim' ref={props.refOne} id='homeOl'>
                     <li>
                         Cats can be left by themselves for a while. You can take a short vacation and leave them at home. All they need is enough food and water to make it through. They don’t get separation anxiety and tear up your entire house like dogs do.
                     </li>

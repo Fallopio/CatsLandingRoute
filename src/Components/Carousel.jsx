@@ -9,6 +9,8 @@ import fifthPic from '../assets/5.png'
 import sixthPic from '../assets/6.png'
 import seventhPic from '../assets/7.png'
 import './Carousel.css'
+
+
 function CarouselSec() {
     return (
         <div>

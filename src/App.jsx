@@ -13,19 +13,20 @@ import Footer from './Components/Footer'
 import CarouselSec from './Components/Carousel';
 import { debounce } from './util';
 import SecondList from './Components/secondList';
+import { useRef } from 'react';
 
 
 function App() {
-  useEffect(() => {
-    window.addEventListener('scroll', animateText)
-  }, [])
+  const refOne = useRef(undefined)
+  const refTwo = useRef(undefined)  
 
+  
   const animateText = debounce(() => {
-    if(document.getElementById('homeOl')) {
-    const section = document.getElementById('homeOl');
+    if(refOne.current) {
+    const section = refOne.current;
     const coords = section.getBoundingClientRect();
     const visible = window.innerHeight;
-    const sectionTwo = document.getElementById('secHomeOl');
+    const sectionTwo = refTwo.current;
     const coordsTwo = sectionTwo.getBoundingClientRect()
 
     if (coordsTwo.y < visible || coordsTwo.bottom < visible) {
@@ -44,16 +45,20 @@ function App() {
     }
 
   }}, 200)
-
+  
+  useEffect(() => {
+    window.addEventListener('scroll', animateText)
+  }, [animateText])
+  
   return (
     <Router>
       <div className="App">
         <Navbar />
         <Switch>
           <Route exact path='/CatsLandingRoute'>
-            <Home />
+            <Home refOne={refOne} />
             <CarouselSec />
-            <SecondList />
+            <SecondList refTwo={refTwo} />
           </Route>
           <Route path='/about'>
             <About />
